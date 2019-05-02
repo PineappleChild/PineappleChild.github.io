@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name = "vietport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<title>Alex's webpage</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+				<div class="container">
+				  <a class="navbar-brand" href="#titlePage">Song Of Myself</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav ml-lg-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" onclick="goBack()">Return<span class="sr-only">(current)</span></a>
+				      </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section  id="personalPoetry">
+			<div class="container h100">
+					<div class="newPageSecArtExplArt" style="text-align:center;">
+						<h2> Cafe terrace at night Analysis </h2>
+            <img src="vanArt2.jpg" class="placeBoxArtAnal" >
+						<p>“The Café Terrace on the Place du Forum, Arles, At Night”, was completed sometime in September of 1888 during the chaotic period at the end of Van Gogh’s life. The painting is also known as “Cafe terrace at night” depicts a popular coffee shop at night on a cozy alleyway, lit by the vibrant lights emanating from the shop and the luminous stars above the calm city. It is a painting of clear contrasts, the bright coffee shop, and the dark city streets, the cool light of the night sky versus the warm light of the coffee shop, and the bustling shop compared with the sparse city streets. The dual nature of the painting allows the viewer to concentrate on the middle of the image, where all the differentiations meet. The lines of the artworks draw the viewer to the center of the piece, the ridge along the top of the shop, the rooftops of the dark buildings, and the cobbled streets meet at the center. Regardless the resonating green and yellow tones of the terrace refocus our eyes, drawing us into a vortex between the darks and lights of the painting, ultimately moving us along the street and into the alley as if we were a passerby. Despite all the contrasts in this art piece, it's toning remains balanced advocating tranquility and equality. The scenery of the artwork shows the duality of our nature, the need for balance in a complicated world, something Van Gogh struggled with until his death. Despite this the night was therapeutic for Van Gogh, for it was his favorite time to be out, in a letter to his brother Theo he wrote, ” I have a terrible need of dare I say, religion. Then I go outside at night and paint the Stars”. </p>
+					</div>
+
+			</div>
+
+		</section>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $(document).scroll(function(){
+      $('.navbar').toggleClass('scrolled', $(this).scrollTop() > $('.navbar').height());
+    });
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name = "vietport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<title>Alex's webpage</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+				<div class="container">
+				  <a class="navbar-brand" href="#titlePage">Song Of Myself</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav ml-lg-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" onclick="goBack()">Return<span class="sr-only">(current)</span></a>
+				      </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section  id="personalPoetry">
+			<div class="container h100">
+					<div class="newPageSecArtExpl" style="text-align:center;">
+						<h2> Search and Rescue Journal </h2>
+						<p>I’ve always been interested in mysterious things, When I was in elementary I was fascinated with the paranormal. I always sought to experience the thrill of the  unexplainable. As I grew older I realized that ghosts and other things were unlikely to be real and as result became more of a skeptic. In ninth grade I began to use reddit to pass the time. When I had some free time I would go and read some stories on the sub. One day I happened to stumble upon r/nosleep. The Reddit sub reawakened my passion for the paranormal, but I wanted to learn about things that could be real. I began to read the search and rescue threads on the Reddit sub. It was a thrill because all of the events in the recounts could be real, as they were told by a Search and Rescue officer. The style of writing along with the thought of the events existing gave me a rush that left me craving more. I was hooked on these stories. The entries were a mixture of mystery and realism with the added touch of humor allowing me to feel both excited and scared. Overall the stories are extremely well written and cover and range of things that I found highly entertaining. I will always have a place in my heart for the SAR officer tales and the memorable time I spent reading them on my living room couch.
+            </p>
+            <a href="https://www.reddit.com/r/nosleep/comments/3iex1h/im_a_search_and_rescue_officer_for_the_us_forest/" class=" btn btnD5" >Stories</a>
+					</div>
+
+			</div>
+		</section>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $(document).scroll(function(){
+      $('.navbar').toggleClass('scrolled', $(this).scrollTop() > $('.navbar').height());
+    });
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>

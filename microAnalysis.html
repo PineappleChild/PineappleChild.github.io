@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name = "vietport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<title>Alex's webpage</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+				<div class="container">
+				  <a class="navbar-brand" href="#titlePage">Song Of Myself</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav ml-lg-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" onclick="goBack()">Return<span class="sr-only">(current)</span></a>
+				      </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="newPageSec" id="personalPoetry">
+			<div class="container h100">
+				<div class="contentBox height100">
+					<div class="personalPoet" style="text-align:center;">
+						<h2> Music Explination </h2>
+						<p>I was vaped when I was 16 years old. It was 2 years ago, I was walking home, alone in the dark after a party filled with litty baes hittin that grass with the famjam. I was half drunk. I saw an older man following me about 30 meters back. No worries I thought to myself, I was a star athlete and I was a guy. Surely, someone thrice my age and twice my weight couldn't out run me. At least in my drunken thoughts, I hadn't found any reason to feel too threatened. He walked off towards a side street after I crossed an intersection. I thought it'd be done.
+            He jumped out of the bushes at the next intersection at me, whipping out his long, hard, throbbing 6 inch vape pen. He blew in my face 9 square meters worth of vape. I became disorientated and fell down. Harder and harder he vaped at me, laughing at me for smoking cigs. I tried crying for help but I was too choked by the vapor to speak properly. He danced around me and blew a mighty fine vape circle at me, I caught it with my mouth and could feel the nicotine inside of me. Slowly burning my internal organs and making me into the crack addict I was born to become. He used up all his vape juice, threw his vape on the ground and ran away.
+            I didn't think men could be vaped, and I questioned it. Was I really vaped? It took me many years but I've finally healed from my vaping experience. Every day, thousands of high schoolers are vaped in bathrooms and it only gets worse. Vaping is indiscriminate of gender.
+            I was finna get litty with the famjam one day, passed my man and yeeted him a "suh dude". And I vaped him in the bathroom, something I didn't think I was capable of but I did. I've hated myself for it, and thought about it everyday since 1998 when The Undertaker threw Mankind off Hell in a Cell and plummeted through the announcer’s table.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $(document).scroll(function(){
+      $('.navbar').toggleClass('scrolled', $(this).scrollTop() > $('.navbar').height());
+    });
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>

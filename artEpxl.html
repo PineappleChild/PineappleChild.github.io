@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name = "vietport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<title>Alex's webpage</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+				<div class="container">
+				  <a class="navbar-brand" href="#titlePage">Song Of Myself</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav ml-lg-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" onclick="goBack()">Return<span class="sr-only">(current)</span></a>
+				      </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section  id="personalPoetry">
+			<div class="container h100">
+					<div class="newPageSecArtExpl" style="text-align:center;">
+						<h2> Vincent Van Gogh Biography </h2>
+						<p>Vincent Van Gogh was born into a religious Dutch family in the Netherlands. Theodorus Van Gogh, his father, was a clergyman and Anna Cornelia Carbentus, his mother, was the daughter of a bookstore keeper. In 1869, Van Gogh apprenticed at the art dealers Goupil & Cie in Paris. He eventually worked at the Hague branch of the art company. His career as an art dealer was fairly successful, he remained with the firm for a good part of a decade. Subsequently, Van Gogh began to get in touch with his brother though letters. The next year his brother Theo became an art dealer and Van Gogh was transferred to the London art office. This was the period in Vincent’s life where he became depressed and turned to God. He decided to leave his position at Goupil's to pursue a life with the clergy. While living as a preacher he gave away his possession to local coal miners and was shortly removed from the church for being over-enthusiastic about his religion. He then came to the conclusion to become an artist under the financial wing of his brother. A year later, around 1881, Van Gogh moved back to his parents home after extreme poverty. In 1885 he began to attend the Academy of Fine Arts in Antwerp, the systematic feeling of school did not lend a good note to Van Gogh and he soon quit and left for Montmartre where he studied with painter Fernand Cormon, who introduced him the style of Impressionists. His poor financial situation and pressure to sell his artworks forced him to switch to a less dark painting style. A good part of Van Gogh's best-known works was produced during the final two years of his life in Arles located in the south of France. Despite enormous productivity, Van Gogh suffered from various mental illnesses, including psychotic episodes, epilepsy, delusions, and bipolar disorder. Van Gogh’s roommate Gauguin, a fellow artist, left after a particularly violent fight where Van Gogh threatened Gauguin with a razor and then mutilated part of his own right ear. On May 8, 1889, Van Gogh submitted himself to a psychiatric institution in Saint-Remy, near Arles. Over time his mental health began to improve and he was allowed to pain again. This part of his life was his most productive, where Van Gogh created over 100 works, including Starry Night in 1889. After some time he left he physiatric institution and attended the care of a homeopathic doctor and amateur artist, named Dr. Gachet. Gachet encouraged Van Gogh to paint as a method to increase his recovery but left Van Gogh after declaring he had little money. Van Gogh entered a deep depression, ending on July 27, 1890, when he wandered into a nearby wheat field and attempted to take his own life by shooting himself in the chest. He passed away a few days later from improper treatment to his gunshot wound. His last words were, "The sadness will last forever.". </p>
+					</div>
+			</div>
+		</section>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $(document).scroll(function(){
+      $('.navbar').toggleClass('scrolled', $(this).scrollTop() > $('.navbar').height());
+    });
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>

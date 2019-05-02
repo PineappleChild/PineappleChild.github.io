@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name = "vietport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<title>Alex's webpage</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+				<div class="container">
+				  <a class="navbar-brand" href="#titlePage">Song Of Myself</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav ml-lg-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" onclick="goBack()">Return<span class="sr-only">(current)</span></a>
+				      </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="newPageSec" id="personalPoetry">
+			<div class="container h100">
+				<div class="contentBox height100">
+					<div class="phelpsLetter" style="text-align:left;">
+						<h2> Dear Ms.Phelps, </h2>
+							<div class="phelpsLetterParagraph">
+							<p>			This year has been a wonderful time. I have never been a person who particularly enjoyed literature and I have never been good at writing or enjoyed to do it. Over the past year, I think that I have begun to enjoy it more. Thank you for helping me organize myself before I begin a writing assignment and give us the proper resources to do our best on any project. It has been a pleasure being able to have a School loop locker with loads of helpful material. I am truly grateful for the help and guidance you have given us in your literature class. The atmosphere of the classroom has been wonderful as well, most classrooms feel boring but the Harry Potter theme is super cool and I look forward to seeing it every time I have literature. The support and acceptance of your class have been amazing. We can have fun while learning and feel safe as well. Especially in light last years events, every time I step into your class I know that you care about us. These past couples of months in your class have been truly fantastic and I can not express how thankful I am for the impact you have had on my view on literature and life mentality. Thank you for being such a fun and caring teacher.</p>
+							</div>
+							<h3>Best regards,</h3>
+							<h3>Alexander</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $(document).scroll(function(){
+      $('.navbar').toggleClass('scrolled', $(this).scrollTop() > $('.navbar').height());
+    });
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>
